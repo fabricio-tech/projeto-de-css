@@ -1,2 +1,96 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Página Inicial - Menu Horizontal</title>
+  <link rel="stylesheet" href="estilo.css/style.css">
+  <style>
+body{
+    background-color: rgb(252, 249, 249);/* meu corpo do codigo*/
+     display: flex;  
+       flex-direction: column;   /* empilha os elementos verticalmente */
+      gap: 20px;                /* espaçamento entre os elementos */
+      padding: 40px;
+      min-height: 100vh       
+
+}
+
+
+
+.menu-horizontal{ 
+    text-align: center;
+    background-color: rgb(179, 180, 179);
+      border-radius: 7px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 1px solid #424242;
+}
+h1{
+    background-color: lightgreen; /* verde claro */
+      color: #000; /* cor do texto */
+      padding: 20px; /* espaço interno */
+      border-radius: 15px; /* cantos arredondados */
+      text-align: center; /* centraliza o texto */
+      width: fit-content; /* ajusta ao tamanho do conteúdo */
+      margin: 20px auto; /* centraliza horizontalmente */
+}
+.colecao{
+display: flex;          /* coloca os links lado a lado */
+  justify-content: center; /* centraliza horizontalmente */
+  gap: 100px;               /* espaço entre os links */
+  padding: 20px;
+  background-color: #777676;/*minhas colores de estilos de coleção*/
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: blue;
+}
+nav{
+     text-decoration: none;        /* remove o sublinhado */
+  color: #333;
+  font-weight: bold;
+  padding: 30px 40px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+   gap: 100px;
+   text-decoration: none;
+}
+.meu-link{
+    text-decoration: none;       /* remove o sublinhado */
+  color: white;                /* cor do texto */
+  background-color: #007bff;   /* cor de fundo azul */
+  padding: 10px 20px;          /* espaço interno (parece um botão) */
+  border-radius: 100px;          /* cantos arredondados */
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  transition: background-color 0.3s; /* animação suave no hover */
+}
+
+  </style
+</head>
+<body class="tema-claro">
+  <header class="meu menu-horizontal">
+    <nav class="menu-horizontal">
+      <a href="index.html">Início</a>
+      <a href="pagina2.html">Menu Vertical</a>
+      <a href="#">Sobre</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Minha Coleção de Objetos</h1>
+    <section class="colecao">
+      <div class="item">Objeto 1</div>
+      <div class="item">Objeto 2</div>
+      <div class="item">Objeto 3</div>
+      <div class="item">Objeto 4</div>
+    </section>
+  </main>
+  <br>
+  <a class="meu-link" href="https://www.youtube.com/watch?v=OXGznpKZ_sA" target="_blank">
+    Assista um vídeo sobre CSS
+  </a>
+</body>
+</html>
+
+</html>
+
+
